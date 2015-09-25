@@ -109,7 +109,7 @@ li.nav-item {
     padding: 0;
     margin:0;
     float: left;
-    width: 15%;
+    width: 200px;
     font-size: 14px;
     top:38px;
     bottom: 32px;
@@ -163,8 +163,8 @@ li.nav-item {
 
 /* content */
 .content {
-    width: 85%;
-    margin-left: 15%;
+    width: calc(100%-200px);
+    margin-left: 200px;
     background-color: #fff;
     position: relative;
 }
